@@ -1,0 +1,66 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+
+:root {
+    /** primary **/
+	--ion-color-primary: #bb40c4;
+	--ion-color-primary-rgb: 187,64,196;
+	--ion-color-primary-contrast: #ffffff;
+	--ion-color-primary-contrast-rgb: 0,0,0;
+	--ion-color-primary-shade: #a538ac;
+	--ion-color-primary-tint: #c253ca;
+
+    /** secondary **/
+    --ion-color-secondary: #bca220;
+	--ion-color-secondary-rgb: 188,162,32;
+	--ion-color-secondary-contrast: #000000;
+	--ion-color-secondary-contrast-rgb: 0,0,0;
+	--ion-color-secondary-shade: #a58f1c;
+	--ion-color-secondary-tint: #c3ab36;
+
+    /** tertiary **/
+    --ion-color-tertiary: #7e38e5;
+	--ion-color-tertiary-rgb: 126,56,229;
+	--ion-color-tertiary-contrast: #ffffff;
+	--ion-color-tertiary-contrast-rgb: 255,255,255;
+	--ion-color-tertiary-shade: #6f31ca;
+	--ion-color-tertiary-tint: #8b4ce8;
+
+    /** toolbar **/
+    --ion-toolbar-background: var(--ion-color-primary, purple);
+    --ion-toolbar-color: var(--ion-color-primary-contrast, white);
+}
+
+
+.ion-color-primary {
+	--ion-color-base: var(--ion-color-primary);
+	--ion-color-base-rgb: var(--ion-color-primary-rgb);
+	--ion-color-contrast: var(--ion-color-primary-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-primary-contrast-rgb);
+	--ion-color-shade: var(--ion-color-primary-shade);
+	--ion-color-tint: var(--ion-color-primary-tint);
+}
+
+.ion-color-secondary {
+	--ion-color-base: var(--ion-color-secondary);
+	--ion-color-base-rgb: var(--ion-color-secondary-rgb);
+	--ion-color-contrast: var(--ion-color-secondary-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-secondary-contrast-rgb);
+	--ion-color-shade: var(--ion-color-secondary-shade);
+	--ion-color-tint: var(--ion-color-secondary-tint);
+}
+
+.ion-color-tertiary {
+	--ion-color-base: var(--ion-color-tertiary);
+	--ion-color-base-rgb: var(--ion-color-tertiary-rgb);
+	--ion-color-contrast: var(--ion-color-tertiary-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-tertiary-contrast-rgb);
+	--ion-color-shade: var(--ion-color-tertiary-shade);
+	--ion-color-tint: var(--ion-color-tertiary-tint);
+}
+
+.md.toolbar-title-default {
+    /** toolbar **/
+    --ion-toolbar-background: var(--ion-color-primary, purple);
+    --ion-toolbar-color: var(--ion-color-primary-contrast, white);
+}
